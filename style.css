@@ -66,8 +66,31 @@ h6 {
 
 .subtitle {}
 
-.rent__btn {}
+.rent__btn {
+    width: 200px;
+    color: gray;
+    border-radius: 5px;
+    height: 22px;
+    border-color: greenyellow;
+}
 
-.options__btn {}
+.options__btn {
+   height: 30px;
+width: 400px;
+border-radius: 5px;
+border-color: greenyellow;
+
+}
 
 .item::after {}
+
+.vibor {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.vibor__item{
+    display: flex;
+    flex-direction: column;
+}
